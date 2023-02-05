@@ -22,5 +22,5 @@ pip install -r requirements.txt
 python $DATA_DIR/nltk_data_downloader.py
 
 # Initialise Airflow
-airflow initdb
+airflow db init
 
